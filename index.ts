@@ -1,6 +1,6 @@
 import { CreateTodoCommand } from './core/application/create/CreateTodoCommand';
 import { CreateTodoCommandHandler } from './core/application/create/CreateTodoCommandHandler';
-import { CreateTodoUseCase } from './core/application/create/TodoCourse';
+import { CreateTodoUseCase } from './core/application/create/CreateTodoUseCase';
 import { AxiosTodoRepository } from './core/infrastructure/AxiosTodoRepository';
 import { CommandHandlersInformation } from './core/infrastructure/CommandHandlersInformation';
 import { InMemoryCommandBus } from './core/infrastructure/InMemoryCommandBus';
